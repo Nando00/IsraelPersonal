@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>This is my website</title>
+   </head>
+
+   <body>
+      <div style="background-image: url('cool.png');">
+      <h1>Welcome to my website!</h1>
+      <p style="font-size: 100; color: blue;">
+		<em>My name is Israel Padilla, I am a CS student. I will be graduating this fall. I like to play videogames, watch anime, and watch movies. I am a slight procrastinator but I do all the work needed to be done</em>
+      </p>
+      <p style = "font-size: 80; color: violet;">
+		<em>I started coding when I was in Highschool, I randomly picked the class because it seemed interesting and it was!</em>
+      </p>
+      <h1>Here are my favorite sites to use!</h1>
+      <ul>
+      		<li><a href = "https://www.youtube.com">Youtube</a></li>
+      		<li><a href = "https://www2.kickassanime.ro">Anime</a></li>
+      		<li><a href = "https://www.amazon.com/">Amazon</a></li>
+      </ul>
+      <h2>Here is a cute cat!</h2>
+      <p>
+          <img src = "Cute-kitty.gif">
+      </p>
+
+
+      <ul>
+      		<li>These are programing languages I know</li>
+      			<ol>
+      				<li>Python</li>
+				<li>C++</li>
+				<li>Java</li>
+				<li>SQL</li>
+			</ol>
+		</li>
+
+
+   <table border = "1">
+
+         <!-- the <caption> tag summarizes the table's -->
+         <!-- contents (this helps visually impaired people) -->
+         <caption><strong>Table of My favorite games (1st column) and 
+		    Their Genre (2nd column)</strong></caption>
+
+         <!-- the <thead> section appears first in the table -->
+         <!-- it formats the table header area -->
+         <thead>
+            <tr> <!-- <tr> inserts a table row -->
+               <th>Game Name</th> <!-- insert a heading cell -->
+               <th>Genre</th>
+            </tr>
+         </thead>
+
+         <!-- the <tfoot> section appears last in the table -->
+         <!-- it formats the table footer -->
+         
+
+         <!-- all table content is enclosed -->
+         <!-- within the <tbody> -->
+         <tbody>
+            <tr>
+               <td>DOOM(2016)</td> <!-- insert a data cell -->
+               <td>FPS</td>
+            </tr>
+            <tr>
+               <td>OVERWATCH</td>
+               <td>FPS</td>
+            </tr>
+            <tr>
+               <td>GENSHIN IMPACT</td>
+               <td>RPG</td>
+            </tr>
+            <tr>
+               <td>RDR II</td>
+               <td>RPG</td>
+            </tr>
+         </tbody>
+      </table>
+
+
+   <p>Please tell me what I can do to make my website better!.</p>
+
+      <!-- this tag starts the form, gives the -->
+      <!-- method of sending information and the -->
+      <!-- location of the form-processing script -->
+      <form method = "post" action = "http://www.deitel.com">
+         <!-- hidden inputs contain non-visual -->
+         <!-- information that will also be submitted -->
+         <input type = "hidden" Feedback = "recipient"
+            value = "deitel@deitel.com">
+         <input type = "hidden" Feedback = "subject" 
+            value = "Feedback Form">
+         <input type = "hidden" Feedback = "redirect" 
+            value = "main.html"> 
+
+         <!-- <input type = "text"> inserts a text field -->
+         <p><label>Feedback:
+               <input Feedback = "Feedback" type = "text" size = "100"
+                  maxlength = "500">
+            </label></p>
+  
+         <p>
+            <!-- input types "submit" and "reset" insert -->
+            <!-- buttons for submitting and clearing the -->
+            <!-- form's contents, respectively -->
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+      </form>
+      </div>
+   </body>
+</html>
+
